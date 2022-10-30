@@ -1,17 +1,19 @@
 //hooks to DOM
 var currentDay = document.querySelector("#currentDay");
+//Selects entire text area for color coordination and for loop to compare time
 var textSelect = document.querySelectorAll("textarea");
 console.log(textSelect);
 var saveBtn = document.querySelector(".saveBtn");
 
-//state var
+//state variables
 var timeStamp = moment().format("dddd, MMMM Do YYYY, h:mm:ss a");
+//Using moment in two character military time for storage saving, for loop time comparison
 var currentTime = moment().format("HH");
 
-//element text
+//Element text
 currentDay.textContent = timeStamp;
 
-// for loop to go through the text length and comparing each text area in the array to the current data time hour/number AND add past/present/future css class
+// FOR loop to go through the text length and comparing each text area in the array to the current data time hour/number AND add past/present/future css class
 for (let i = 0; i < textSelect.length; i++) {
 //datatime is the time number on each element in he HTML via textselect
   var dataTime = textSelect[i].dataset.time;
@@ -26,7 +28,6 @@ for (let i = 0; i < textSelect.length; i++) {
   }
 }
 
-// $(document).ready(function(){
 // Save btn event listener to to-do items 
 $(".saveBtn").on("click", function (event) {
     var toDo = $(this).siblings(".description").val();
