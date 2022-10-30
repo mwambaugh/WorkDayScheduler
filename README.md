@@ -17,7 +17,8 @@ SO THAT I can manage my time effectively
 [Link to GitHub Repository] (https://github.com/mwambaugh/workdayscheduler)
 
 # Visuals 
-![""]()
+!["Screenshot of Workday scheduler"](./assets/photos/1.png)
+!["Screenshot of Workday scheduler with text added to 2pm time"](./assets/photos/2.png)
 
 # Contributing:
 This assignment was worked on by student, M.C. Wambaugh, with the support of her instructor John, TA's via Slack and office hours. The student also worked with a tutor and classmates via Slack and Zoom. The student also used universial resources such as  W3schools.com, FreeCodeCamp.org, the Class 'Resources' tab via Slack and jQuery/Bootstrap/FontAwsome/Moment libraries. Many thanks to those who continue to support learning in the technological community.
