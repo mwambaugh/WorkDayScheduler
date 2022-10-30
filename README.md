@@ -13,7 +13,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 
 # Links
-[Link to Deployed Workday scheduler] () 
+[Link to Deployed Workday scheduler] (https://mwambaugh.github.io/workdayscheduler/) 
 [Link to GitHub Repository] (https://github.com/mwambaugh/workdayscheduler)
 
 # Visuals 
