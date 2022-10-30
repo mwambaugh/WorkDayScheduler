@@ -15,7 +15,7 @@ currentDay.textContent = timeStamp;
 
 // FOR loop to go through the text length and comparing each text area in the array to the current data time hour/number AND add past/present/future css class
 for (let i = 0; i < textSelect.length; i++) {
-//datatime is the time number on each element in he HTML via textselect
+  //datatime is the time number on each element in he HTML via textselect
   var dataTime = textSelect[i].dataset.time;
   console.log(dataTime);
   console.log(currentTime);
@@ -28,15 +28,15 @@ for (let i = 0; i < textSelect.length; i++) {
   }
 }
 
-// Save btn event listener to to-do items 
+// Save btn event listener to to-do items
 $(".saveBtn").on("click", function (event) {
-    var toDo = $(this).siblings(".description").val();
-    var time = $(this).parent().attr("id");
-    // event.defaultPrevented;
+  var toDo = $(this).siblings(".description").val();
+  var time = $(this).parent().attr("id");
+  // event.defaultPrevented;
 
-// Save To Do Items in Local Storage
-localStorage.setItem(time, toDo);
-})
+  // Save To Do Items in Local Storage
+  localStorage.setItem(time, toDo);
+});
 
 // Get & display toDo item, description class, from local storage under hour id
 $("#hour9 .description").val(localStorage.getItem("hour9"));
@@ -48,4 +48,3 @@ $("#hour14 .description").val(localStorage.getItem("hour14"));
 $("#hour15 .description").val(localStorage.getItem("hour15"));
 $("#hour16 .description").val(localStorage.getItem("hour16"));
 $("#hour17 .description").val(localStorage.getItem("hour17"));
-
