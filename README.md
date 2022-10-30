@@ -27,7 +27,7 @@ This assignment was worked on by student, M.C. Wambaugh, with the support of her
 [MIT](https://choosealicense.com/licenses/mit/) 
 
 # Acceptance Criteria 
-GIVEN I am using a daily planner to create a schedule
+<GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 WHEN I scroll down
@@ -39,4 +39,4 @@ THEN I can enter an event
 WHEN I click the save button for that time block
 THEN the text for that event is saved in local storage
 WHEN I refresh the page
-THEN the saved events persist
+THEN the saved events persist>
